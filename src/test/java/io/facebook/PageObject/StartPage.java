@@ -1,4 +1,4 @@
-package PageObject;
+package io.facebook.PageObject;
 
 import core.DriverManager;
 

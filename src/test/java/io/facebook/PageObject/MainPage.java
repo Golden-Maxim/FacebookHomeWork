@@ -1,8 +1,7 @@
-package PageObject;
+package io.facebook.PageObject;
 
 import core.DriverManager;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 
 public class MainPage {

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="779b9db3-f47b-47a8-a925-8d05913f0491" name="Default Changelist" comment="" />
+    <list default="true" id="779b9db3-f47b-47a8-a925-8d05913f0491" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/facebook/PageObject/FacebookPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/facebook/PageObject/FacebookPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/facebook/PageObject/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/facebook/PageObject/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/facebook/PageObject/ResultOfSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/facebook/PageObject/ResultOfSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/facebook/PageObject/StartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/facebook/PageObject/StartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/facebook/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/facebook/Run.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +21,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WkIuypz2FlZBGoI9MgIdtIkaF1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +33,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -79,6 +91,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1579687802725" />
+    <state x="576" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1579698193262">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="576" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579698193262" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1579697584476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
