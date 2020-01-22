@@ -1,6 +1,7 @@
 package io.facebook.PageObject;
 
 import core.DriverManager;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
@@ -13,14 +14,10 @@ public class FacebookPage {
 
 
     public FacebookPage isUrl(String url) {
+        String currentUrl = DriverManager.getDriver().getCurrentUrl();
+        Assert.assertTrue(currentUrl.equalsIgnoreCase(url));
 
-        if (DriverManager.getDriver().getCurrentUrl().equals(url)) {
-            System.out.println("You are in the Facebook site");
-        } else {
-            System.out.println("Error!!!");
-        }
-
-        return new FacebookPage();
+        return this;
     }
 
     public FacebookPage enterWrongEmail(String login) {
@@ -34,17 +31,17 @@ public class FacebookPage {
         WebElement email = DriverManager.getDriver().findElement(paswordField);
         email.sendKeys(password);
 
-        return new FacebookPage();
+        return this;
     }
 
     public FacebookPage clickButtonLogIn() {
         WebElement button = DriverManager.getDriver().findElement(buttonLogIn);
         button.click();
 
-        return new FacebookPage();
+        return this;
     }
 
-    public String  identifyErrorMessage(){
+    public String identifyErrorMessage() {
         String alert = DriverManager.getDriver().findElement(alertMessage).getText();
 
         return alert;

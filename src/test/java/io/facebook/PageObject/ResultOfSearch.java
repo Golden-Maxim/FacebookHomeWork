@@ -8,7 +8,7 @@ public class ResultOfSearch {
     private By linkLogIn = By.xpath("//a[@href=\"https://www.facebook.com/\"]");
 
 
-    public FacebookPage enterInFacebookPage(){
+    public FacebookPage enterInFacebookPage() {
         WebElement link = DriverManager.getDriver().findElement(linkLogIn);
         link.click();
 

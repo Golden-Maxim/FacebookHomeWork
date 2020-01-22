@@ -13,16 +13,18 @@
 
 package io.facebook;
 
-import io.facebook.PageObject.StartPage;
+import core.DriverManager;
+import io.facebook.PageObject.GooglePage;
+import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;
 
 public class Run {
     @Test
-    public void facebookTest(){
-        String test = new StartPage().navigateTo("https://www.google.com/")
-                .searchFacebook().
-                clickButton()
+    public void facebookTest() {
+        String test = new GooglePage().navigateTo("https://www.google.com/")
+                .searchFacebook()
+                .clickButton()
                 .enterInFacebookPage()
                 .isUrl("https://www.facebook.com/")
                 .enterWrongEmail("badlogin")
@@ -30,5 +32,9 @@ public class Run {
                 .clickButtonLogIn().identifyErrorMessage();
         Assert.assertTrue(test.contains("The email or phone number you’ve entered doesn’t match any account. Sign up for an account."));
     }
+   @After
+    public void finishTest(){
+        DriverManager.killDriver();
+   }
 
 }

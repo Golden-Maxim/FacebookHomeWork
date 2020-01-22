@@ -4,16 +4,21 @@ import core.DriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class MainPage {
+public class GooglePage {
     private By searchField = By.name("q");
     private By searcButton = By.className("gNO89b");
 
+    public GooglePage navigateTo(String url) {
+        DriverManager.getDriver().get(url);
 
-    public MainPage searchFacebook(){
+        return this;
+    }
+
+    public GooglePage searchFacebook(){
         WebElement search =  DriverManager.getDriver().findElement(searchField);
         search.sendKeys("Facebook");
 
-        return  new MainPage();
+        return this;
     }
 
     public ResultOfSearch clickButton(){
