@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="779b9db3-f47b-47a8-a925-8d05913f0491" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/facebook/PageObject/BaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/facebook/PageObject/FacebookPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/facebook/PageObject/FacebookPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/facebook/PageObject/GooglePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/facebook/PageObject/GooglePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,12 +118,27 @@
       <option name="project" value="LOCAL" />
       <updated>1579785553250</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="divided the code into two tests">
+      <created>1579790502582</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579790502582</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added the abstract BaseClass">
+      <created>1579790601523</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579790601523</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="divided the code into two tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="divided the code into two tests" />
+    <MESSAGE value="added the abstract BaseClass" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the abstract BaseClass" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Project_Structure" timestamp="1579699784369">
@@ -137,30 +149,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="576" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579698193262" />
-    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579786240144">
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579790823135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579786240144" />
-    <state x="548" y="115" key="CommitChangelistDialog2" timestamp="1579790554616">
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579790823135" />
+    <state x="548" y="115" key="CommitChangelistDialog2" timestamp="1579790600130">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="548" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579790554616" />
-    <state width="1877" height="163" key="GridCell.Tab.0.bottom" timestamp="1579785369477">
+    <state x="548" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579790600130" />
+    <state width="1877" height="163" key="GridCell.Tab.0.bottom" timestamp="1579790853094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="163" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579785369477" />
-    <state width="1877" height="163" key="GridCell.Tab.0.center" timestamp="1579785369477">
+    <state width="1877" height="163" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579790853094" />
+    <state width="1877" height="163" key="GridCell.Tab.0.center" timestamp="1579790853094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="163" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579785369477" />
-    <state width="1877" height="163" key="GridCell.Tab.0.left" timestamp="1579785369477">
+    <state width="1877" height="163" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579790853094" />
+    <state width="1877" height="163" key="GridCell.Tab.0.left" timestamp="1579790853094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="163" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579785369477" />
-    <state width="1877" height="163" key="GridCell.Tab.0.right" timestamp="1579785369477">
+    <state width="1877" height="163" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579790853094" />
+    <state width="1877" height="163" key="GridCell.Tab.0.right" timestamp="1579790853094">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="163" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579785369477" />
+    <state width="1877" height="163" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579790853094" />
     <state x="184" y="92" key="MergeDialog" timestamp="1579785504232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -169,10 +181,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="672" y="237" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579785506069" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1579790508471">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1579790611926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579790508471" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579790611926" />
     <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1579783361394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

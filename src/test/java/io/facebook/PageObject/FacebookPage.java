@@ -3,7 +3,7 @@ package io.facebook.PageObject;
 import core.DriverManager;
 import org.openqa.selenium.By;
 
-public class FacebookPage extends GooglePage {
+public class FacebookPage {
 
     private By emailField = By.id("email");
     private By passwordField = By.id("pass");
@@ -11,7 +11,6 @@ public class FacebookPage extends GooglePage {
     private By alertMessage = By.xpath("//div[contains(@role,'alert')]");
 
 
-  @Override
   public FacebookPage navigateTo(String url) {
       DriverManager.getDriver().get(url);
 

@@ -3,11 +3,11 @@ package io.facebook.PageObject;
 import core.DriverManager;
 import org.openqa.selenium.By;
 
-public class GooglePage extends BaseClass{
+public class GooglePage {
     private By searchField = By.name("q");
     private By searchButton = By.name("btnK");
 
-    @Override
+
     public GooglePage navigateTo(String url) {
         DriverManager.getDriver().get(url);
 
