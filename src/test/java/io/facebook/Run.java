@@ -14,6 +14,7 @@
 package io.facebook;
 
 import core.DriverManager;
+import io.facebook.PageObject.FacebookPage;
 import io.facebook.PageObject.GooglePage;
 import org.junit.After;
 import org.junit.Assert;
@@ -21,20 +22,27 @@ import org.junit.Test;
 
 public class Run {
     @Test
-    public void facebookTest() {
-        String test = new GooglePage().navigateTo("https://www.google.com/")
+    public void wayToFacebookTest() {
+        String facebookUrl = new GooglePage().navigateTo("https://www.google.com/")
                 .searchFacebook()
                 .clickButton()
                 .enterInFacebookPage()
-                .isUrl("https://www.facebook.com/")
+                .isUrl("https://www.facebook.com/");
+        Assert.assertTrue(facebookUrl.contains("https://www.facebook.com/"));
+    }
+
+   @Test
+    public void facebookTest(){
+        String verifyMessage = new FacebookPage()
+                .navigateTo("https://www.facebook.com/")
                 .enterWrongEmail("badlogin")
                 .enterWrongPassword("badpassword")
                 .clickButtonLogIn().identifyErrorMessage();
-        Assert.assertTrue(test.contains("The email or phone number you’ve entered doesn’t match any account. Sign up for an account."));
-    }
-   @After
-    public void finishTest(){
-        DriverManager.killDriver();
+       Assert.assertTrue(verifyMessage.contains("The email or phone number you’ve entered doesn’t match any account. Sign up for an account."));
    }
 
+    @After
+    public void finishTest(){
+        DriverManager.killDriver();
+    }
 }
