@@ -9,19 +9,19 @@ public class GooglePage {
 
 
     public GooglePage navigateTo(String url) {
-        DriverManager.getDriver().get(url);
+        DriverManager.getChromeDriver().get(url);
 
         return this;
     }
 
     public GooglePage searchFacebook() {
-        DriverManager.getDriver().findElement(searchField).sendKeys("Facebook");
+        DriverManager.getChromeDriver().findElement(searchField).sendKeys("Facebook");
 
         return this;
     }
 
     public ResultOfSearch clickButton() {
-        DriverManager.getDriver().findElement(searchButton).submit();
+        DriverManager.getChromeDriver().findElement(searchButton).submit();
 
         return new ResultOfSearch();
     }

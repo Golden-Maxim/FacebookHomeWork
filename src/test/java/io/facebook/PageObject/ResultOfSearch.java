@@ -8,7 +8,7 @@ public class ResultOfSearch {
 
 
     public FacebookPage enterInFacebookPage() {
-        DriverManager.getDriver().findElement(linkLogIn).click();
+        DriverManager.getChromeDriver().findElement(linkLogIn).click();
 
         return new FacebookPage();
     }

@@ -13,12 +13,16 @@
 
 package io.facebook;
 
+import core.DataBase;
 import core.DriverManager;
+import core.Users;
 import io.facebook.PageObject.FacebookPage;
 import io.facebook.PageObject.GooglePage;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;
+
+import java.sql.SQLException;
 
 public class Run {
     @Test
@@ -40,6 +44,8 @@ public class Run {
                 .clickButtonLogIn().identifyErrorMessage();
        Assert.assertTrue(verifyMessage.contains("The email or phone number you’ve entered doesn’t match any account. Sign up for an account."));
    }
+
+
 
     @After
     public void finishTest(){

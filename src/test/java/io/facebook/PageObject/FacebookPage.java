@@ -12,36 +12,35 @@ public class FacebookPage {
 
 
   public FacebookPage navigateTo(String url) {
-      DriverManager.getDriver().get(url);
+      DriverManager.getChromeDriver().get(url);
 
       return this;
   }
 
     public String isUrl(String url) {
-        return  DriverManager.getDriver().getCurrentUrl();
+        return  DriverManager.getChromeDriver().getCurrentUrl();
     }
 
     public FacebookPage enterWrongEmail(String login) {
-         DriverManager.getDriver().findElement(emailField).sendKeys(login);
-
+        DriverManager.getChromeDriver().findElement(emailField).sendKeys(login);
 
         return new FacebookPage();
     }
 
     public FacebookPage enterWrongPassword(String password) {
-         DriverManager.getDriver().findElement(passwordField).sendKeys(password);
+         DriverManager.getChromeDriver().findElement(passwordField).sendKeys(password);
 
         return this;
     }
 
     public FacebookPage clickButtonLogIn() {
-         DriverManager.getDriver().findElement(buttonLogIn).click();
+         DriverManager.getChromeDriver().findElement(buttonLogIn).click();
 
         return this;
     }
 
     public String identifyErrorMessage() {
-        return DriverManager.getDriver().findElement(alertMessage).getText();
+        return DriverManager.getChromeDriver().findElement(alertMessage).getText();
 
     }
 }
