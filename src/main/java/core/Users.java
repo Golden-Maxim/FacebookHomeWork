@@ -14,23 +14,18 @@ public class Users {
     public String login;
     public String password;
 
-/*
-    public List<Users> getListLoginAndPassword() throws ClassNotFoundException, SQLException {
-        DataBase dataBase = new DataBase();
-        Users users = new Users();
-        List<Users> data = new ArrayList<Users>();
+    public Users(String string) {
 
-        ResultSet query = dataBase.getStatement().executeQuery("select * from facebookusers");
-        query.next();
-        users.id = query.getInt(1);
-        users.login  = query.getString(2);
-        users.password = query.getString(3);
-        data.add(users);
-
-        return data;
     }
 
-*/
+    public Users() {
+
+    }
+
+    public Users(int anInt) {
+
+    }
+
 
     public String print()
     {

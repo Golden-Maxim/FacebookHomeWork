@@ -6,10 +6,14 @@ import core.Users;
 import javax.jws.soap.SOAPBinding;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         DataBase dataBase = new DataBase();
+
+       /* List<Users> users = new ArrayList<Users>();*/
         Users users = new Users();
 
      /*   try {
@@ -24,9 +28,14 @@ public class Main {
         } catch (SQLException e) {
             e.printStackTrace();
         }*/
+        for (Users temp:dataBase.getListLoginAndPassword()){
+            System.out.println(temp.print());
+        }
 
-       System.out.println(dataBase.getListLoginAndPassword(users));
-       System.out.println(users.print());
+
+
+
+
 
     }
 

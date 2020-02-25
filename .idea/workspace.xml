@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="779b9db3-f47b-47a8-a925-8d05913f0491" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/DataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/facebook/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/facebook/PageObject/FacebookPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/facebook/PageObject/FacebookPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/facebook/PageObject/GooglePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/facebook/PageObject/GooglePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/facebook/PageObject/ResultOfSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/facebook/PageObject/ResultOfSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/facebook/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/facebook/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/core/DriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/DriverManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/facebook/PageObject/FacebookPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/facebook/PageObject/FacebookPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/facebook/PageObject/GooglePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/facebook/PageObject/GooglePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/facebook/PageObject/ResultOfSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/facebook/PageObject/ResultOfSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/facebook/Run.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/facebook/Run.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/DataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/facebook/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/facebook/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,13 +176,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579790601523</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="init">
+      <created>1582641490333</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582641490333</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="divided the code into two tests" />
     <MESSAGE value="added the abstract BaseClass" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the abstract BaseClass" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Project_Structure" timestamp="1579699784369">
@@ -212,30 +209,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579790823135" />
-    <state x="548" y="115" key="CommitChangelistDialog2" timestamp="1579790600130">
+    <state x="548" y="115" key="CommitChangelistDialog2" timestamp="1582641489445">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="548" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579790600130" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1582634589430">
+    <state x="548" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582641489445" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1582643824133">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582634589430" />
-    <state width="1877" height="273" key="GridCell.Tab.0.bottom" timestamp="1582641035538">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582643824133" />
+    <state width="1877" height="273" key="GridCell.Tab.0.bottom" timestamp="1582644446248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582641035538" />
-    <state width="1877" height="273" key="GridCell.Tab.0.center" timestamp="1582641035537">
+    <state width="1877" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582644446248" />
+    <state width="1877" height="273" key="GridCell.Tab.0.center" timestamp="1582644446247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="273" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582641035537" />
-    <state width="1877" height="273" key="GridCell.Tab.0.left" timestamp="1582641035537">
+    <state width="1877" height="273" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582644446247" />
+    <state width="1877" height="273" key="GridCell.Tab.0.left" timestamp="1582644446247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="273" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582641035537" />
-    <state width="1877" height="273" key="GridCell.Tab.0.right" timestamp="1582641035538">
+    <state width="1877" height="273" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582644446247" />
+    <state width="1877" height="273" key="GridCell.Tab.0.right" timestamp="1582644446247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="273" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582641035538" />
+    <state width="1877" height="273" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582644446247" />
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1582644103515">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582644103515" />
+    <state width="1877" height="338" key="GridCell.Tab.1.center" timestamp="1582644103514">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582644103514" />
+    <state width="1877" height="338" key="GridCell.Tab.1.left" timestamp="1582644103514">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582644103514" />
+    <state width="1877" height="338" key="GridCell.Tab.1.right" timestamp="1582644103514">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582644103514" />
     <state x="184" y="92" key="MergeDialog" timestamp="1579785504232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -244,10 +257,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="672" y="237" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579785506069" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1579790611926">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1582641494937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579790611926" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582641494937" />
     <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1579783361394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
